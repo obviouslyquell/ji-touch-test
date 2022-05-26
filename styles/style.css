@@ -122,16 +122,17 @@ h2 {
 .fill::after {
   content: '';
   background-color: #0077a0;
+  top: 7px;
+  left: 7px;
   width: 100%;
   z-index: -1;
   position: absolute;
   height: 100%;
-  top: 7px;
-  left: 7px;
   transition: 0.3s ease;
 }
 
 .fill:hover::after {
+  background-color: #ef7f1a;
   top: 0px;
   left: 0px;
 }
